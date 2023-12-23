@@ -7,4 +7,5 @@
    can update and delete their posts. 
 
  #  Steps to run this project
- -> First u have to create
+ -> First u have to activate the virtual environment and then after install the requiremnts.txt file.
+ -> And then u have to do migrations and migrate and after that create superuser and then run your project.
