@@ -1,0 +1,12 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+<div class="jumbotron">
+    <h2>Please SignUp:</h2>
+    
+    <form action="{% url 'signup' %}" method="POST">{% csrf_token %}
+        {{form.as_p}}
+        <input type="submit" class='btn btn-primary' value="SignUp">
+    </form>
+</div>
+{% endblock %}
